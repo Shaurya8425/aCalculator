@@ -1,0 +1,92 @@
+*{
+  font-family: 'Bree Serif';
+  font-size: 18px;
+}
+.header input{
+  border-radius: .25rem;
+  color: red;
+}
+.header button{
+  border: none;
+  border-radius: .25rem;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  box-shadow: 5px 5px 10px red;
+}
+.header{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+  margin-top: 1rem;
+}
+#left,#right{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+#left span,#right span{
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px 0px;
+  display: flex;
+  border-radius: .25rem;
+  background-color: rgba(255, 166, 0, 0.74);
+  color: blue;
+  box-shadow: 5px 5px 10px orangered;
+}
+.sqrt span{
+  font-size: 18px;
+}
+#sqrt{
+  color: blue;
+}
+.tile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.inside-tile{
+  border-radius: .25rem;
+  padding: 10px;
+  height: 80vh;
+  width: 3g86px;
+  box-shadow: 10px 10px 30px grey;
+}
+/* Coloring each text differently */
+.s{
+  color: sandybrown;
+}
+.q{
+  color: magenta;
+}
+.u{
+  color: blue;
+}
+.a{
+  color: orangered;
+}
+.r{
+  color: brown;
+}
+.e{
+  color: palevioletred;
+}
+.o{
+  color: cornflowerblue;
+}
+.t{
+  color: gold;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:wght@400;600&family=Poppins:ital,wght@1,300&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="tile">
+      <div class="inside-tile">
+        <div class="header">
+          <input type="number" name="" id="number" />
+          <button onclick="sendNum()">Calculate</button>
+        </div>
+        <div class="footer">
+          <div class="sqrt">
+            <span class="s">S</span><span class="q">q</span
+            ><span class="u">u</span><span class="a">a</span
+            ><span class="r">r</span><span class="e">e</span>
+            <span class="r">R</span><span class="o">o</span
+            ><span class="o">o</span><span class="t">t</span>:
+          </div>
+          <div id="sqrt"></div>
+        </div>
+        <div class="container">
+          <div class="box">
+            <div id="left">
+              <span id="l1">0</span>
+              <span id="l2">0</span>
+              <span id="l3">0</span>
+              <span id="l4">0</span>
+              <span id="l5">0</span>
+            </div>
+            <div id="right">
+              <span id="r1">0</span>
+              <span id="r2">0</span>
+              <span id="r3">0</span>
+              <span id="r4">0</span>
+              <span id="r5">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
